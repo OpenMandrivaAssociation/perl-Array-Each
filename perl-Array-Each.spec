@@ -1,15 +1,15 @@
 %define upstream_name    Array-Each
-%define upstream_version 0.02
+%define upstream_version 0.03
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.03
+Release:	1
 
 Summary:	Array-Each module for perl 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Array/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Array/Array-Each-0.03.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -72,4 +72,5 @@ make test
 
 * Thu Jul 14 2005 Oden Eriksson <oeriksson@mandriva.com> 0.02-1mdk
 - initial Mandriva package
+
 

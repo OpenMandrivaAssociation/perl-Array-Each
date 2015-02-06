@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.03
-Release:	2
+Release:	3
 
 Summary:	Array-Each module for perl 
 License:	GPL+ or Artistic
